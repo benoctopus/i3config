@@ -188,3 +188,14 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+
+#startup
+
+exec_always feh --bg-scale /home/$USER/Pictures/bg.jpg
+
+exec chromium https://youtube.com
+assign [class="Chromium"] $ws1
+
+# exec code /home/$USER/.config/i3/config
+# assign [class="Code"] $ws2
