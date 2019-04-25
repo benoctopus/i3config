@@ -197,5 +197,5 @@ exec_always feh --bg-scale /home/$USER/Pictures/bg.jpg
 exec chromium https://youtube.com
 assign [class="Chromium"] $ws1
 
-# exec code /home/$USER/.config/i3/config
-# assign [class="Code"] $ws2
+exec code /home/$USER/.config/i3/config
+assign [class="Code"] $ws2
